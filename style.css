@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 10px;
+  background: #edeef0;
+}
+
+.logo {
+  font-size: 3em;
+  font-weight: 700;
+  color: #f05136;
+}
+
+.nav-link {
+  font-size: 1.8em;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #f05136;
+}
+
+#Home {
+  background: black;
+  color: white;
+  height: 450px;
+}
+
+header div p {
+  font-size: 2.5em;
+  font-weight: 200;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 500;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+.link-button {
+  text-decoration: none;
+  text-align: center;
+  background: #f05136;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-weight: 200;
+  color: white;
+  font-size: 1.8em;
+  padding: 10px;
+  border-radius: 5%;
+  border-color: black;
+}
+
+.link-button:hover {
+  color: white;
+}
+#Bio {
+  display: flex;
+  align-items: center;
+}
+
+#Bio img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 100px;
+}
+#Bio article {
+  margin: 20px;
+  padding: ;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+#Portfolio {
+  background: url(https://i1.faceprep.in/ProGrad/portfolio-background.svg);
+  background-color: black;
+  color: white;
+}
+#Portfolio,
+#Skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+hr {
+  width: 400px;
+}
+#Portfolio div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+  width: 100%;
+}
+#portfolio h3,
+p,
+hr {
+  margin-bottom: 20px;
+}
+
+#Portfolio div article {
+  background: white;
+  color: black;
+  height: 288px;
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+}
+#Portfolio div article * {
+  padding: 0 5px;
+}
+
+progress {
+  -webkit-appearance: none;
+  width: 350px;
+  height: 10px;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: grey;
+  box-shadow: 0 2px 3px rgb(0, 0, 0.25 inset);
+}
+::-webkit-progress-value {
+  background-color: #f05136;
+}
+#Skills {
+  font-size: 1.5em;
+}
+#Skills ul {
+  list-style: none;
+}
+#Skills ul li {
+  margin: 10px 0;
+}
+#Contact {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.input {
+  line-height: 2em;
+  width: 330px;
+  border-radius: 3px;
+  border-color: black;
+  margin: 20px 0px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 20px;
+}
+#Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Subskills {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#Skills ul li {
+  margin: 10px 0;
+}
+#Subskills div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Contact form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#sub {
+  margin: 40px;
+}
